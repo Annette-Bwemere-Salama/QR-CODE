@@ -13,6 +13,11 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    :root {
+      /* background-color: rgb(147 197 253); */
+      background-color: rgb(219 234 254);
+    }
+
     .attribution {
       font-size: 11px;
       text-align: center;
@@ -25,18 +30,38 @@
 </head>
 
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <main class="flex  flex-col  items-center my-4 justify-center ">
+    <div class="bg-white rounded-lg max-w-sm max-h-md p-4 shadow-lg">
+      <div class="">
+        <div class="">
+          <img src="./images/image-qr-code.png" alt="qr-code" class=" rounded-xl">
+        </div>
+        <div class="text-center">
 
-  Improve your front-end skills by building projects
+          <h1 class="text-xl  font-bold my-4">
+            Improve your front-end skills <br>
+            by building projects
 
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+          </h1>
+          <P class="text-gray-600 mb-4">
+            Scan the QR code to visit Frontend
+            <br>
+            Mentor and take your
+            coding skills
+            <br>
+            to the next level
+          </P>
+        </div>
+      </div>
 
-  <div class="attribution">
+    </div>
+  </main>
+
+
+  <footer class="attribution" class="flex flex-col justify-center">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="#" class="text-blue-200">Annette Bwemere</a>.
+  </footer>
 </body>
 
 </html>
